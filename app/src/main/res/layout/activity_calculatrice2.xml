@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    tools:context=".CalculatriceActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:text="@string/calc"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="24sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="50px"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/calc7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="operator"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/calc8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/calc7"
+            android:onClick="operator"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/calc9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/calc8"
+            android:onClick="operator"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/calcDivise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/calc9"
+            android:onClick="operator"
+            android:text="/" />
+
+        <Button
+            android:id="@+id/calc4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/calc7"
+            android:onClick="operator"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/calc5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/calc8"
+            android:layout_toRightOf="@+id/calc4"
+            android:onClick="operator"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/calc6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/calc7"
+            android:layout_toRightOf="@+id/calc5"
+            android:onClick="operator"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/calcFois"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/calc7"
+            android:layout_toRightOf="@+id/calc6"
+            android:onClick="operator"
+            android:text="*" />
+
+        <Button
+            android:id="@+id/calc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/calc5"
+            android:onClick="operator"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/calc2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/calc5"
+            android:layout_toRightOf="@+id/calc1"
+            android:onClick="operator"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/calc3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/calc4"
+            android:layout_toRightOf="@+id/calc2"
+            android:onClick="operator"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/calcMoins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/calc5"
+            android:layout_toRightOf="@+id/calc3"
+            android:onClick="operator"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/calc0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/calc1"
+            android:onClick="operator"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/calcEgal"
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/calc3"
+            android:layout_marginTop="0dp"
+            android:layout_span="2"
+            android:layout_toRightOf="@+id/calc0"
+            android:text="=" />
+
+        <Button
+            android:id="@+id/calcPlus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/calcMoins"
+            android:layout_toRightOf="@+id/calcEgal"
+            android:onClick="operator"
+            android:text="+" />
+    </RelativeLayout>
+
+</LinearLayout>

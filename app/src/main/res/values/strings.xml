@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TP_android</string>
+    <string name="calc">Calculatrice</string>
+    <string name="title_activity_calculatrice">CalculatriceActivity</string>
+    <string name="ttc">Calcul TTC</string>
+    <string name="prixHT">Prix HT (€)</string>
+    <string name="tauxTVA">Taux TVA (%)</string>
+    <string name="erreurTVA">Le prix ou le taux est null</string>
+    <string name="devinette">Devinette</string>
+</resources>
