@@ -7,4 +7,9 @@
     <string name="tauxTVA">Rate TVA (%)</string>
     <string name="erreurTVA">Price or rate null</string>
     <string name="devinette">Riddle</string>
+    <string name="choix">Your choice</string>
+    <string name="devinetteExplication">I think about a number between à and 10000, can you fin him ?</string>
+    <string name="plus">It\'s more</string>
+    <string name="moins">It\'s less</string>
+    <string name="gagne">You win</string>
 </resources>

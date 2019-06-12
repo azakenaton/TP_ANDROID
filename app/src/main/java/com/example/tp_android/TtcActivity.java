@@ -25,7 +25,7 @@ public class TtcActivity extends AppCompatActivity {
     public void calculTVA(){
         Double resultat = null;
         Double prixTTC = null,tauxTVA = null;
-        EditText TTC = (EditText)findViewById(R.id.prixTTC);
+        EditText TTC = (EditText)findViewById(R.id.reponseDevinette);
         EditText TVA = (EditText)findViewById(R.id.tauxTVA);
 
         if(!TTC.getText().toString().equals("")){

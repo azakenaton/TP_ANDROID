@@ -22,6 +22,10 @@ public class MainActivity extends AppCompatActivity {
             Intent i = new Intent(this, TtcActivity.class);
             startActivity(i);
         }
+        if(v.getId()==R.id.devinette) {
+            Intent i = new Intent(this, DevinetteActivity.class);
+            startActivity(i);
+        }
     }
 
 

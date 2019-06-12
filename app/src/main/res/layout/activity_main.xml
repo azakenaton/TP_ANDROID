@@ -42,6 +42,14 @@
             android:layout_weight="1"
             android:onClick="appliChoice"
             android:text="@string/ttc" />
+
+        <Button
+            android:id="@+id/devinette"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ttc"
+            android:onClick="appliChoice"
+            android:text="@string/devinette" />
     </RelativeLayout>
 
 </LinearLayout>

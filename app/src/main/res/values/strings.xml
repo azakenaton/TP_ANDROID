@@ -7,4 +7,10 @@
     <string name="tauxTVA">Taux TVA (%)</string>
     <string name="erreurTVA">Le prix ou le taux est null</string>
     <string name="devinette">Devinette</string>
+    <string name="choix">Votre choix</string>
+    <string name="devinetteExplication">Je pense à un chiffre entre 0 et 10000, le trouvera-tu ?</string>
+    <string name="plus">C\'est plus</string>
+    <string name="moins">C\'est moins</string>
+    <string name="gagne">C\'est gagné</string>
+
 </resources>
